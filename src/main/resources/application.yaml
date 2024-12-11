@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/postgres
+    username: postgres
+    password: Bing@1234
+
+server:
+  port: 8096
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info

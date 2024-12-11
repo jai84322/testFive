@@ -1,12 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repository') {
-            steps {
-                echo 'Cloning repository...'
-                git 'https://your-repo-url.git'
-            }
-        }
         stage('Build') {
             steps {
                 echo 'Building the project...'

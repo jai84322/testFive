@@ -9,3 +9,10 @@ public class Main {
         SpringApplication.run(Main.class, args);
     }
 }
+
+// swagger url from docker port
+// http://localhost:8096/swagger-ui/index.html
+
+// from application port check yaml
+
+// checking the new jenkins auto build
